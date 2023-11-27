@@ -1,0 +1,292 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./public/fondo.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 170, 94);
+    box-shadow: 0px 15px 10px black;
+    color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.headerTitulo {
+    margin-left: 0px;
+}
+
+.headerTitulo h1 {
+    font-weight: 800;
+    font-size: 50px;
+    margin: 20px;
+}
+
+
+
+header div {
+   display: flex;
+   align-items: center;
+}
+
+header a {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+     
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mainImagenes {
+    background-color: rgba(30, 2, 2, 0.5);
+    margin-top: 50px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 100px;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 70px;
+    padding: 50px;
+}
+
+.mainImagenes img {
+    margin: 50px;
+    border: 10px solid rgb(218, 170, 94);
+    box-shadow: 5px 10px 3px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
+
+#container {
+    color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #fffdfd;
+    border-radius: 50px;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 5px 10px 3px black;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 800;
+    
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    font-weight: 800;
+    cursor: pointer;
+    background-color: yellow;
+    color: rgb(11, 11, 11);
+    border: none;
+    border-radius: 100px;
+}
+
+input[type="submit"]:hover {
+    font-weight: 800;
+    background-color: black;
+    color: white;
+}
+
+.mainResenas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mainResenas div {
+    padding: 50px;
+    background-color:rgb(218, 170, 94);
+    margin: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    align-items: center;
+}
+
+.mainResenas img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    width: 90%;
+}
+
+.servicios div {
+    background-color: rgba(30, 2, 2, 0.5);
+    padding: 50px;
+    margin: 70px;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+    text-align: center;
+    border-radius: 5rem;
+}
+
+.servicios img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin-top: 0;
+    width: 100%;
+    height: 30px;
+
+}
+
+.productos {
+    background-color: rgba(30, 2, 2, 0.5);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.productosTitulo {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.ofertas {
+    background-color: #a52a2a;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ofertasTitulo {
+    color: yellow;
+    font-size: 70px;
+    padding: 5px;
+    background-color: black;
+}
+
+.ofertas img {
+    width: 300px;
+    height: 200px;
+}
+
+.ofertas div {
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+
+.productos img {
+    width: 200px;
+    height: 200px;
+}
+.tf1{
+    transition: .5s;
+}
+.tf1:hover{
+    transform: scale(1.1);
+}
+
+.productosArriba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.productosArriba div{
+    background-color: rgb(218, 170, 94);
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+.productosAbajo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.productosAbajo div{
+    background-color: rgb(218, 170, 94);
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
